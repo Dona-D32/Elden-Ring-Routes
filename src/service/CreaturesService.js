@@ -17,7 +17,7 @@ class CreaturesService {
       }
 
       console.log('Creatures data:', data.data);
-      // Now you can directly use "data.data" with the method "map" to process each creature.
+     
       const mappedData = data.data.map(creature => ({
         id: creature.id,
         name: creature.name,

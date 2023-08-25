@@ -17,7 +17,11 @@ const Creatures = () => {
 
   return (
     <div>
+<<<<<<< HEAD
       <h1 className="horror-text">Elden Ring Creatures</h1>
+=======
+      <h1 className="horror-text">Elden Ring Creatures</h1> 
+>>>>>>> 38eb0b3a14768f6d5f071394258c94b1c953dcf7
       <div className="creatures-container">
         {data && data.map(creature => (
           <Link key={creature.id} to={`/creatures/${creature.id}`}> {/* Utilisez Link pour les liens */}

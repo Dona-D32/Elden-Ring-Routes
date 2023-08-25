@@ -1,0 +1,32 @@
+.creature-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .creature-image img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .creature-description {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .creature-info {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .creature-info p {
+    margin: 8px 0;
+  }
+  
+  
+  
